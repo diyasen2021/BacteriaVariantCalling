@@ -1,0 +1,10 @@
+name: bcftools_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bcftools=1.17  # Replace with your desired version
+  - samtools       # Include other related tools if needed
+  - htslib         # Required library for working with VCF/BAM files
+

@@ -1,0 +1,9 @@
+name: fastqc_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - fastqc
+  - openjdk  # Required for FastQC
+

@@ -1,0 +1,3 @@
+# config.yaml
+samples_file: "samples.tsv"
+ref_file: "data/ref_genome/ecoli_rel606.fasta"
